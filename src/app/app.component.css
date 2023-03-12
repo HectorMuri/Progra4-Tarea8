@@ -1,8 +1,22 @@
-H1{
-    padding: 100PX;
-}
 
-p{
-    padding: 0px;
-    font-family: roboto, 'Times New Roman', Times, serif;
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: center;
+    height: 50vh;
+    color: white;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("media/gaming.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.somos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: center;
+    font-size: larger;
 }
